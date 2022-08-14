@@ -3975,7 +3975,7 @@ background: #000;
     3.banner css 
 ===========================*/
 .animate_banner_area{
-  background-image: url(../images/slider-2.jpg);
+  background-image: url(../images/heroimg.png);
     background-position: center center;
     background-size: cover;
 }
@@ -17085,7 +17085,7 @@ color: #fff;
 }
 .ministor_testimonial_area{
     background-color: #F9F9F9;
-    background-image: url(../images/slider-2.jpg);
+    background-image: url(../images/heroimg.png);
     background-position: center center;
     background-size: cover;
     position: relative;
