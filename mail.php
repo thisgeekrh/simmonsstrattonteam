@@ -1,32 +1,5 @@
 <?php
-
-
-if(isset($_POST['submit'])) {
-    $first_name = $_POST["first_name"];
-    $last_name = $_POST["last_name"];
-    $phone = $_POST["phone"];
-    $email = $_POST["email"];
-    $comment = $_POST["comment"];
-
-    $mailTo = "admin@isellscre.com";
-    $headers = "From: ".$email;
-    $txt = "You have recieved an email from ".$first_name.".\n\n".$comment;
-
-    mail($mailTo, $comment, $txt, $headers);
-    header("Location: mail.php?mailsend");
-
-}
-
-
-
-?>
-
-
-
-
-
-
-/*    
+ 
 // POST Request
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // form fields and remove whitespace.
@@ -78,4 +51,4 @@ if(isset($_POST['submit'])) {
         echo "There was a problem with your submission, please try again.";
     }
 
-?> */
+?>
