@@ -3,17 +3,14 @@
     // POST Request
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // form fields and remove whitespace.
-        $name = strip_tags(trim($_POST["name"]));
-			$name = str_replace(array("\r","\n"),array(" "," "),$name);
-        $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-        $num = trim($_POST["phone"]);
-        $website = trim($_POST["website"]);
-        $subject = trim($_POST["subject"]);
-		 $select_opt = trim($_POST["select_opt"]);
+        $first_name = strip_tags(trim($_POST["first_name"]));
+        $last_name = strip_tags(trim($_POST["last_name"]));
+        $phone = filter_var(trim($_POST["phone"]), FILTER_SANITIZE_EMAIL);
+        $email = trim($_POST["email"]);
         $comment = trim($_POST["comment"]);
 
         // Check sent to the mailer.
-        if ( empty($name) OR empty($comment) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        if ( empty($first_name) OR empty($comment) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             // Set a 400 (bad request) response code and exit.
             http_response_code(400);
             echo "Please fillup the form and try again.";
@@ -21,18 +18,16 @@
         }
 
         // Set the recipient email address.
-        $recipient = "info@example.com";
+        $recipient = "admin@isellscre.com";
 
         // Set the email sub.
-        $sub = "Mail contact from $name";
+        $sub = "New Client Email From $name";
 
         // Build the email content.
-        $email_content = "Name: $name\n";
+        $email_content = "First Name: $first_name\n";
+        $email_content .= "Last Name: $last_name\n\n";
+        $email_content .= "Number: $phone\n\n";
         $email_content .= "Email: $email\n\n";
-        $email_content .= "Number: $num\n\n";
-        $email_content .= "website: $website\n\n";
-        $email_content .= "subject: $subject\n\n";
-		 $email_content .= "select_opt: $select_opt\n\n";
         $email_content .= "Comment:\n$comment\n";
 
         // Build the email headers.
