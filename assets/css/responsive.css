@@ -10,7 +10,14 @@ Large Screen. 1200
 .em_slider_s2_image_inner img{
 	width:100%;
 }
-
+.mobile_search{
+    visibility: hidden;
+	clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
 
 
 
@@ -63,7 +70,14 @@ Large Screen. 1200
 
 }
 
-
+.mobile_search{
+    visibility: hidden;
+	clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
 
 
 
@@ -80,7 +94,14 @@ Large Screen. 1025
     width: 98% !important;
 }	
 	
-	
+.mobile_search{
+    visibility: hidden;
+	clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}	
 	
 	
 	
@@ -118,6 +139,14 @@ Large Screen. 1024
     top: 45%;
   
 }
+.mobile_search{
+    visibility: hidden;
+	clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
 
 }
 /* -------------------------------------------------
@@ -136,7 +165,14 @@ Laptop Screen 1366
 .witr_banner_content p {
 	width: 70%;
 }
-
+.mobile_search{
+    visibility: hidden;
+	clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
 
 }
 
@@ -169,6 +205,15 @@ Old Desktop :1365-1660
   bottom: 80px;
 }
 
+.mobile_search{
+    visibility: hidden;
+	clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
+
 }
 
 /* -------------------------------------------------
@@ -180,7 +225,14 @@ Old Desktop :992-1300
     width: 98% !important;
 }
 
-
+.mobile_search{
+    visibility: hidden;
+	clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
 
 }
 
@@ -2439,6 +2491,14 @@ margin: 0 2px 10px;
 .ministor-header-top {
 display:block;
 }
+.desktop_search{
+    visibility: hidden;
+	clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
 
 }
 /* menu and logo show & hide */
@@ -2464,9 +2524,18 @@ margin-bottom: 20px;
 .single_counter {
 margin-bottom: 20px;
 }
+.desktop_search{
+    visibility: hidden;
+	clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
 
 
 }
+
 
 
 @media (min-width: 10px) and (max-width: 991px){
@@ -2493,8 +2562,16 @@ margin-bottom: 20px;
     width: 100%;
 }
 
-
+.desktop_search{
+    visibility: hidden;
+	clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
 	
+
 
 }
 
@@ -2510,6 +2587,14 @@ margin-bottom: 20px;
 
 }
 
+.desktop_search{
+    visibility: hidden;
+	clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
 
 	
 
@@ -2529,6 +2614,15 @@ margin-bottom: 20px;
 	width: 95%;
 }	
 
+.desktop_search{
+    visibility: hidden;
+	clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
+
 
 }
 
@@ -2537,6 +2631,16 @@ margin-bottom: 20px;
 .ministor-header-top{
 display:none;
 }
+
+.desktop_search{
+    visibility: hidden;
+	clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
+
 
 }
 
