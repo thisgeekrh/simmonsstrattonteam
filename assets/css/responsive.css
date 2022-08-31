@@ -1,4 +1,28 @@
 /* -------------------------------------------------
+Large Screen. 1600+
+---------------------------------------------------*/
+
+@media (min-width: 1440px)  {
+
+	.em_sc_100 {
+		margin-top: 15px;
+	}
+	.em_slider_s2_image_inner img{
+		width:100%;
+	}
+	.mobile_search{
+		visibility: hidden;
+		clear: both;
+		float: left;
+		margin: 10px auto 5px 20px;
+		width: 28%;
+		display: none;
+	}
+	
+}
+
+
+/* -------------------------------------------------
 Large Screen. 1200
 ---------------------------------------------------*/
 
@@ -10,6 +34,7 @@ Large Screen. 1200
 .em_slider_s2_image_inner img{
 	width:100%;
 }
+
 .mobile_search{
     visibility: hidden;
 	clear: both;
@@ -80,8 +105,8 @@ Large Screen. 1200
 }
 
 
-
 }
+
 
 
 /* -------------------------------------------------
@@ -248,9 +273,17 @@ Old Desktop :1301-1440
     width: 82% !important;
 }
 
+
+.mobile_search{
+    visibility: hidden;
+	clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
 }
 
-
+}
 
 /* -------------------------------------------------
 Old Desktop :992
@@ -272,6 +305,15 @@ Old Desktop :992
     padding-right: 0px !important;
 }
 
+
+.mobile_search{
+    visibility: hidden;
+	clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
 
 }
 
@@ -327,6 +369,17 @@ Old Desktop :992
 	width:100%;
 }
 
+.mobile_search{
+    visibility: hidden;
+	clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
+
+}
+
 /*========= New Top Menu css ========*/
 .cr_top_addess.top-address p {
     text-align: center !important;
@@ -345,6 +398,8 @@ Old Desktop :992
 .em_creative_header:before{
 	display:none;
 }
+
+
 
 
 
